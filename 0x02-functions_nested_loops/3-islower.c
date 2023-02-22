@@ -1,13 +1,19 @@
 #include "main.h"
-
 /**
- * int _islower - check the code.
+ * _islower - Check main
+ * @c: input checked
+ * Description: it uses putchar to print lowercase 10x
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 int _islower(int c)
 {
-c  = _islower('d');
-_putchar(c + '0');
+char j;
+int m = 0;
+for (j = 'a'; j <= 'z'; j++)
+{
+if (j == c)
+m = 1;
 }
-
+return (m);
+}
