@@ -4,12 +4,16 @@
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10 (void)
 {
 int n;
-for(n = 'a'; n < 'p'; n++)
+int i;
+for (i = 0; i < 10; i++)
+{
+for (n = 'a'; n <= 'z'; n++)
 {
 _putchar(n);
+}
 }
 _putchar('\n');
 }
