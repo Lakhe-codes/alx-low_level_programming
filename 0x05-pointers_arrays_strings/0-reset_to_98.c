@@ -7,5 +7,5 @@
 void reset_to_98(int *n)
 {
 *n = 98;
-putchar(n + '0');
+printf(%d, n);
 }
